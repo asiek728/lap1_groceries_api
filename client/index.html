@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Groceries API</title>
+</head>
+
+<body>
+
+    <section>
+        <h1>Welcome to My Groceries App</h1>
+
+        <h2>Add a grocery item</h2>
+
+        <form id="groceryForm" aria-label="Add a grocery item">
+            <label for="grocery_item">Grocery Item: </label>
+            <input type="text" id="grocery_item" placeholder="e.g. milk" required>
+            <input type="submit" value="Add a grocery item">
+        </form>
+    </section>
+
+    <section>
+        <h2>Display my grocery list</h2>
+        <ul id="groceries">
+        </ul>
+
+        <button id="display">Display my grocery list</button>
+
+    </section>
+
+</body>
+
+</html>
